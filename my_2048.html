@@ -1,45 +1,81 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title> 2048 </title>
-		<meta charset = "utf-8">
-		<link rel="stylesheet" href="my_2048.css">
-	</head>
-	<body>
-        <script src="my_2048.js"></script>
-        <div class="'header">
-            <div class="title"> Let's play 2048! </div>
-            <button class="restart-button" onclick="restartGrid()">New game</button>
-        </div>
-        <div class="grid-container">
-            <div id="win">
-                Congratulations!
-            </div>
-            <div id="loss">
-                Game over!
-            </div>
-            <div class="grid-play">
-                    <div class="cell"><div class="inner"></div></div>
-                    <div class="cell"><div class="inner"></div></div>
-                    <div class="cell"><div class="inner"></div></div>
-                    <div class="cell"><div class="inner"></div></div>
 
-                    <div class="cell"><div class="inner"></div></div>
-                    <div class="cell"><div class="inner"></div></div>
-                    <div class="cell"><div class="inner"></div></div>
-                    <div class="cell"><div class="inner"></div></div>
+<head>
+    <title> 2048 </title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="my_2048.css">
+</head>
 
-                    <div class="cell"><div class="inner"></div></div>
-                    <div class="cell"><div class="inner"></div></div>
-                    <div class="cell"><div class="inner"></div></div>
-                    <div class="cell"><div class="inner"></div></div>
+<body>
+    <script>var module = {};</script>
+    <script src="funcs.js"></script>
+    <script src="my_2048.js"></script>
+    <div class="'header">
+        <div class="title"> Let's play 2048! </div>
+        <button class="restart-button" onclick="restartGrid()">New game</button>
+    </div>
+    <div class="grid-container">
+        <div id="win">
+            Congratulations!
+        </div>
+        <div id="loss">
+            Game over!
+        </div>
+        <div class="grid-play">
+            <div class="cell">
+                <div class="inner"></div>
+            </div>
+            <div class="cell">
+                <div class="inner"></div>
+            </div>
+            <div class="cell">
+                <div class="inner"></div>
+            </div>
+            <div class="cell">
+                <div class="inner"></div>
+            </div>
 
-                    <div class="cell"><div class="inner"></div></div>
-                    <div class="cell"><div class="inner"></div></div>
-                    <div class="cell"><div class="inner"></div></div>
-                    <div class="cell"><div class="inner"></div></div>
+            <div class="cell">
+                <div class="inner"></div>
+            </div>
+            <div class="cell">
+                <div class="inner"></div>
+            </div>
+            <div class="cell">
+                <div class="inner"></div>
+            </div>
+            <div class="cell">
+                <div class="inner"></div>
+            </div>
+
+            <div class="cell">
+                <div class="inner"></div>
+            </div>
+            <div class="cell">
+                <div class="inner"></div>
+            </div>
+            <div class="cell">
+                <div class="inner"></div>
+            </div>
+            <div class="cell">
+                <div class="inner"></div>
+            </div>
+
+            <div class="cell">
+                <div class="inner"></div>
+            </div>
+            <div class="cell">
+                <div class="inner"></div>
+            </div>
+            <div class="cell">
+                <div class="inner"></div>
+            </div>
+            <div class="cell">
+                <div class="inner"></div>
             </div>
         </div>
-        <div>
-        </div>
-    </body>
+    </div>
+    <div>
+    </div>
+</body>
